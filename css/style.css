@@ -14,11 +14,11 @@ body {
 	padding: 20px;
 	text-align: center;
 }
-.topnav {
+nav class="menu" {
 	overflow: hidden;
 	background-color: red;
 }
-.topnav a {
+nav class a {
 	float:left;
 	display:block;
 	color: #f2f2f2;
