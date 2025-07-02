@@ -34,13 +34,13 @@ footer {
 	clear:both;
 }
 footer h2 {
-	color: #8c8c8c;
+	color: #d9d9d9;
 }
 /* heading styles */
 h1 {
 	font-family: 'Georgia', cursive;
 	font-size: 5vw;
-	color: #8c8c8c;
+	color: #d9d9d9;
 	text-align: center;
 	text-shadow: 3px 2px 5px #202020;
 	padding: 2vw;
@@ -103,7 +103,7 @@ table, th. td {
 	border: 1px, solid #003d4d;
 	padding: 4px;
 	margin: 6px;
-	background-color: #8c8c8c;
+	background-color: #d9d9d9;
 }
 th {
 	width: 150px;
@@ -116,7 +116,7 @@ td {
 	color: #092834;
 }
 .accent1 {
-	background-color: 3092834;
+	background-color: #d9d9d9;
 	color: #8c8c8c;
 }
 .error{
