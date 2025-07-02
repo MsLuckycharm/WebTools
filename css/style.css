@@ -135,3 +135,30 @@ a:hover {
 	color: #8c8c8c;
 	text-decoration: none;
 }
+/* form styles */
+fieldset {
+    padding: 1em;
+    border-radius:1em;
+}
+form p {
+    padding: 1vw;
+    margin-bottom: 6px;
+}
+input [type=submit] {
+    background-color:#092834;
+    color: whitesmoke;
+    font-size: large;
+}
+input [type=reset] {
+    background-color: #c04402;
+    color: whitesmoke;
+    font-size: large;
+}
+input {
+    border: none;
+    border-bottom: 1.5px solid #092834;
+    padding : 3px;
+}
+textarea {
+    width: 100px;
+}
