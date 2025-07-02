@@ -95,7 +95,7 @@ figcaption {
 	text-align: center;
 }
 /* tables styles */
-table, th td {
+table, th, td {
 	border: 1px, solid #003d4d;
 	padding: 4px;
 	margin: 6px;
