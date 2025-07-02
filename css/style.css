@@ -9,7 +9,7 @@ html {
 	box-sizing: inherit;
 }
 body {
-	background-color: #B2D732;
+	background-color: #8c8c8c;
 }
 main { 
 	color: #202020;
@@ -30,24 +30,24 @@ header img {
 footer {
 	text-align: center;
 	background-color: #092834;
-	color: #B2D732;
+	color: #8c8c8c;
 	clear:both;
 }
 footer h2 {
-	color: #B2D732;
+	color: #8c8c8c;
 }
 /* heading styles */
 h1 {
 	font-family: 'Georgia', cursive;
 	font-size: 5vw;
-	color: #b2d732;
+	color: #8c8c8c;
 	text-align: center;
 	text-shadow: 3px 2px 5px #202020;
 	padding: 2vw;
 	margin: 0px;
 }
 h2, h4, h5, figcaption, dt, legend {
-	color: #c04402;
+	color: #cc0099;
 	font-family: 'Verdana';
 	margin-top: 1em;
 }
