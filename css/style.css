@@ -1,8 +1,4 @@
 /*Strutural elements styles */
-html {
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust:100%;
-}
 *,
 *:before,
 *:after {
@@ -99,7 +95,7 @@ figcaption {
 	text-align: center;
 }
 /* tables styles */
-table, th. td {
+table, th td {
 	border: 1px, solid #003d4d;
 	padding: 4px;
 	margin: 6px;
@@ -109,7 +105,7 @@ th {
 	width: 150px;
 	color: #2e6c85;
 }
-td. data { 
+td data { 
 	text-align: center;
 }
 td { 
