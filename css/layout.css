@@ -29,9 +29,9 @@
   
   /* responsive design */
   .topnav {
-    font-family: "Architects Daughter", cursive;
+    font-family: "Georgia", cursive;
     overflow: hidden;
-    background-color: #b2d732;
+    background-color: #f0f0f0;
     width: 20vw;
     float: left
     position:fixed;
@@ -39,7 +39,7 @@
   
   .topnav a {
     display: block;
-    color: #c04402;
+    color: #092834;
     text-align: left;
     padding: 10px;
     text-decoration: none;
@@ -48,7 +48,7 @@
   
   .topnav a:hover {
     color: #f0f7d4;
-    background-color: #092834;
+    background-color: whitesmoke;
   }
   
   .topnav a.active {
@@ -67,7 +67,7 @@
     .topnav a {
       float: left;
       display: block;
-      color: #c04402;
+      color: #092834;
       text-align: center;
       padding: 10px;
       text-decoration: none;
