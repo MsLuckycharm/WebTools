@@ -30,6 +30,7 @@
   /* responsive design */
   .topnav {
     font-family: "Georgia", cursive;
+    font-size: small;
     overflow: hidden;
     background-color: #f0f0f0;
     width: 10vw;
@@ -69,7 +70,7 @@
       display: block;
       color: #092834;
       text-align: center;
-      padding: 10px;
+      padding: 20px;
       text-decoration: none;
       font-size: 1vw;
     }
