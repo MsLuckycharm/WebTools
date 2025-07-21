@@ -19,7 +19,28 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  ,gallery a {
+    display: block;
+    text-decoration: none;
+    border: 2px solid #d9d9d9;
+    border-radius: 4px;
+    overflow: hidden;
+    transition: none;
+  }
+  .gallery a:hover {
+    border-color: #8c8c8c;
+  }
+  .gallery img {
+    display: block;
+    width: 250px; /*Thumbnail size */
+    height: auto;
+  }
+
   footer {
     padding: 1vw;
   }
@@ -81,7 +102,9 @@
       width: 46vw;
     }
   }
-  
+
+  }
+
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {
       display: none;
@@ -114,3 +137,4 @@
       flex-direction: column;
     }
   }
+  
