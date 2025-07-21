@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ashley Persley">
+    <meta name="description" content="This page includes content assisted by AI.">
     <title>Contact Us</title>
     <link rel="stylesheet" href=" styles.css" />
+   
 </head>
 <body>
     <h1>CharmCentral!</h1>
@@ -15,23 +18,66 @@
             <a href="about-us.html">About Us</a>
         
       </nav>
-    <main>
+    <section>
         <h2>Get in Touch</h2>
         <p>Have a question about CharmCentral's coding journey? Send us a message!</p>
 
-        <form action="success.html" method="GET">
-            <label for="name">Name: </label>
-            <input type="text" id="name" name="name" required />
+        <form name="contact" action="success.html" method="get">
+            <fieldset>
+                <legend>Your Details</legend>
+            
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" required />
 
-            <label for="email">Email: </label>
-            <input type="email" id="email" name="email" required />
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required />
+            </fieldset>
 
-            <label for="message">Message: </label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <fieldset>
+                <legend>Tell Us About Your Interests!</legend>
+                    
+                <label for="tech-interest"> Which technologies are you interested in?</label>
+                <table class="input-table">
+                    <caption> Technology Selection for Aspiring Coders</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Technology</th>
+                            <th scope="col">Select Your Interests</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row"> HTML</th>
+                            <td><input type="checkbox" name="tech-interest" value="HTML"> </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">CSS</th>
+                            <td><input type="checkbox" name="tech-interest" value="CSS"> </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Python</th>
+                            <td><input type="checkbox" name="tech-interest" value="Python"> </td>
+                        </tr>
+                        <tr>
+                            <th scope="=SQL">SQL</th>
+                            <td><input type="checkbox" name="tech-interest" value="SQL"> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Your Message to CharmCentral</legend>
+                <label for="message">Message: </label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </fieldset>
+
 
             <button type="submit">Send Message</button>
         </form>
-    </main>
+    </section>
     <footer>
         <p>Copyright 2025 CharmCentral. Crafted with passion and purpose. All rights reserved</p>
         <p>Visit the <a href="https://www.dallascollege.edu" target = "blank">Dallas College</a> website for more information. </p>
