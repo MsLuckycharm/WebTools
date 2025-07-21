@@ -32,7 +32,7 @@
     font-family: "Georgia", cursive;
     overflow: hidden;
     background-color: #f0f0f0;
-    width: 20vw;
+    width: 10vw;
     float: left
     position:fixed;
   }
@@ -47,7 +47,7 @@
   }
   
   .topnav a:hover {
-    color: #f0f7d4;
+    color: #8c8c8c;
     background-color: whitesmoke;
   }
   
@@ -57,7 +57,7 @@
   }
   
   .topnav .icon {
-    display: none;
+    display: block;
   }
   
   @media screen and (max-width: 1070px) {
