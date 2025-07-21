@@ -11,7 +11,7 @@ main {
 	color: #202020;
 }
 header {
-	background-color: #DA70D6;
+	background-color: #663399;
 	width: 100%;
 }
 header img {
@@ -43,7 +43,7 @@ h1 {
 	margin: 0px;
 }
 h2, h4, h5, figcaption, dt, legend {
-	color: #DA70D6;
+	color: #663399;
 	font-family: 'Verdana';
 	margin-top: 1em;
 }
@@ -124,7 +124,7 @@ a {
 	color: #8c8c8c;
 }
 a:visited {
-	color: #DA70D6;
+	color: #663399;
 	text-decoration: none;
 }
 a:hover {
