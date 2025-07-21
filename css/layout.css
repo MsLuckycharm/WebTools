@@ -33,7 +33,8 @@
     overflow: hidden;
     background-color: #b2d732;
     width: 20vw;
-    float: left;
+    float: left
+    position:fixed;
   }
   
   .topnav a {
