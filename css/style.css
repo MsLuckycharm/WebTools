@@ -158,3 +158,34 @@ input {
 textarea {
     width: 100px;
 }
+.input-table {
+	width: 50%;
+	margin: 2rem auto;
+	border-collapse: collapse;
+	border: 1px solid #ccc;
+	font-family: Arial, sans-serif;
+  }
+  
+  .input-table caption {
+	caption-side: top;
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+  }
+  
+  .input-table thead {
+	background-color: #f0f0f0;
+  }
+  
+  .input-table th,
+  .input-table td {
+	border: 1px solid #ccc;
+	padding: 0.75rem;
+	text-align: left;
+  }
+  
+  .input-table th[scope="row"] {
+	background-color: #fafafa;
+	font-weight: normal;
+  }
+  
