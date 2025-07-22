@@ -53,10 +53,10 @@
     font-family: "Georgia", cursive;
     font-size: medium;
     overflow: hidden;
-    background-color: black;
+    background-color: whitesmoke;
     width: 10vw;
     float: left
-    position:sticky;
+    position: sticky;
     overflow: hidden;
   }
 /* Style the links inside the navigation bar */
