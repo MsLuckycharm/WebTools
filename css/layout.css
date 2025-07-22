@@ -1,7 +1,3 @@
-{
-  margin: 0;
-  padding: 0;
-}
 html {
   margin: 0;
   padding: 0;
@@ -110,16 +106,9 @@ footer {
 }
   
 .topnav .icon {
-  display: none;
+  display: whitesmoke;
 }
 
-.topnav-bar {
-  list-style-type:  ;
-  margin: 0;
-  padding: 0;
-  display: center;
-  background-color: none;
-}
 .sr-only {
   position: absolute;
   width: 1px;
