@@ -98,7 +98,7 @@ figcaption {
 }
 /* tables styles */
 table,th, td {
-	border: 1px, solid #0a6b96;
+	border: 1px solid #0a6b96;
 	padding: 10px;
 	margin: 6px;
 	background-color: whitesmoke;
@@ -181,7 +181,7 @@ textarea {
 
 table {
 width: 60%;
-position: center;
+position: absolute;
 border-collapse: collapse;
 margin: 20px auto;
 font-family: Georgia, 'Times New Roman', Times, serif;
