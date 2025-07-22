@@ -71,7 +71,7 @@ footer {
 /* Style the links inside the navigation bar */
 .topnav a {
   display: none;
-  color: #39abdd;
+  color: #0a6b96;
   text-align: horizontal;
   padding: 14px 16px;
   text-decoration: none;
@@ -90,7 +90,7 @@ footer {
 }
   
 .topnav .icon {
-  display: block;
+  display: none;
 }
 
 .topnav-bar {
@@ -98,7 +98,7 @@ footer {
   margin: 0;
   padding: 0;
   display: center;
-  background-color: white;
+  background-color: none;
 }
 .sr-only {
   position: absolute;
