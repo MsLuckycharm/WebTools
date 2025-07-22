@@ -24,7 +24,7 @@
     flex-wrap: wrap;
     gap: 16px;
   }
-  ,gallery a {
+  .gallery a {
     display: block;
     text-decoration: none;
     border: 2px solid #d9d9d9;
@@ -50,6 +50,7 @@
   
   /* responsive design */
   .topnav {
+    color: 2e6c85;
     font-family: "Georgia", cursive;
     font-size: medium;
     overflow: hidden;
@@ -58,6 +59,7 @@
     float: left
     position: sticky;
     overflow: hidden;
+  
   }
 /* Style the links inside the navigation bar */
   .topnav a {
@@ -93,7 +95,7 @@
     .topnav a {
       float: left;
       display: block;
-      color: #092834;
+      color: #2e6c85;
       text-align: center;
       padding: 20px;
       text-decoration: none;
