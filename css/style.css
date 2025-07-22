@@ -5,7 +5,7 @@
 	box-sizing: inherit;
 }
 body {
-	background-color: white;
+	background-color: whitesmoke;
 }
 main { 
 	color: #202020;
@@ -201,7 +201,7 @@ empty-cells: hide;
   }
   
   .input-table thead {
-	background-color: whitesmoke;
+	background-color: white;
   }
   
   .input-table th,
