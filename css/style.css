@@ -98,7 +98,7 @@ figcaption {
 }
 /* tables styles */
 table,th, td {
-	border: 1px, solid #39abdd;
+	border: 1px, solid #0a6b96;
 	padding: 10px;
 	margin: 6px;
 	background-color: whitesmoke;
@@ -106,13 +106,13 @@ table,th, td {
 }
 th {
 	width: 150px;
-	color: #39abdd;
+	color: #0a6b96;
 }
 td data { 
 	text-align: center;
 }
 td { 
-	color: #39abdd;
+	color: #0a6b96;
 }
 thead {
 	background-color: white;
@@ -161,18 +161,18 @@ form p {
     margin-bottom: 6px;
 }
 input [type=submit] {
-    background-color:#39abdd;
+    background-color:#0a6b96;
     color: whitesmoke;
     font-size: large;
 }
 input [type=reset] {
-    background-color: white;
+    background-color: whitesmoke;
     color: whitesmoke;
     font-size: large;
 }
 input {
     border: none;
-    border-bottom: 1.5px solid #39abdd;
+    border-bottom: 1.5px solid #0a6b96;
     padding : 3px;
 }
 textarea {
