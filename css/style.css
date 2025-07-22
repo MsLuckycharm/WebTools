@@ -183,6 +183,7 @@ margin: 20px auto;
 font-family: Georgia, 'Times New Roman', Times, serif;
 border-spacing: 10px;
 empty-cells: hide;
+box-sizing: border-box;
 }
 
 .input-table {
