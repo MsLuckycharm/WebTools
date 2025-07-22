@@ -1,63 +1,62 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  main {
-    padding: 8px 16px;
-    width: 78vw;
-    float: right;
-    background-color: #dcdcdc;
-    ;
-  }
-  .logo {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px auto;
-    position: absolute;
-  }
+{
+  margin: 0;
+  padding: 0;
+}
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  padding: 8px 16px;
+  width: 78vw;
+  float: right;
+  background-color: #dcdcdc;
+}
+.logo {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  position: absolute;
+}
   
-  .gallery-grid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-  }
-  .gallery a {
-    display: block;
-    text-decoration: none;
-    border: 2px solid #d9d9d9;
-    border-radius: 4px;
-    overflow: hidden;
-    transition: none;
-  }
-  .gallery a:hover {
-    border-color: #8c8c8c;
-  }
-  .gallery img {
-    display: block;
-    width: 150px; /*Thumbnail size */
-    height: auto;
-  }
+.gallery-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.gallery a {
+  display: block;
+  text-decoration: none;
+  border: 2px solid #d9d9d9;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: none;
+}
+.gallery a:hover {
+  border-color: #8c8c8c;
+}
+.gallery img {
+  display: block;
+  width: 150px; /*Thumbnail size */
+  height: auto;
+}
 
-  footer {
-    padding: 1vw;
-  }
-  .clearfix {
-    clear: both;
-  }
+footer {
+  padding: 1vw;
+}
+.clearfix {
+  clear: both;
+}
   
   /* responsive design */
-  .topnav {
+.topnav {
     color: #2e6c85;
     font-family: "Georgia", cursive;
     font-size: medium;
@@ -69,89 +68,88 @@
   
   }
 /* Style the links inside the navigation bar */
+.topnav a {
+  display: block;
+  color: #2e6c85;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+  /* Change the color of links on hover */
+.topnav a:hover {
+  color: #663399;
+  background-color: whitesmoke;
+}
+  
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: black;
+  background-color: whitesmoke;
+}
+  
+.topnav .icon {
+  display: block;
+}
+
+.topnav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: center;
+  background-color: white;
+}
+  
+@media screen and (max-width: 1070px) {
+  .topnav {
+    width: 100%;
+  }
   .topnav a {
     display: block;
     color: #2e6c85;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1vw;
   }
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    color: #663399;
-    background-color: whitesmoke;
+  main {
+    width: 100%;
   }
-  
-/* Add a color to the active/current link */
-  .topnav a.active {
-    color: black;
-    background-color: whitesmoke;
+  .gallery-container {
+    width: 46vw;
+   }
+}
 
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
   }
-  
-  .topnav .icon {
+  .topnav a.icon {
+    float: right;
     display: block;
   }
-
-  .topnav-bar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: center;
-    background-color: white;
-  }
+}
   
-  @media screen and (max-width: 1070px) {
-    .topnav {
-      width: 100%;
-    }
-    .topnav a {
-      display: block;
-      color: #2e6c85;
-      text-align: center;
-      padding: 20px;
-      text-decoration: none;
-      font-size: 1vw;
-    }
-    main {
-      width: 100%;
-    }
-    .gallery-container {
-      width: 46vw;
-    }
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
   }
-
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {
-      display: none;
-    }
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
-  
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {
-      position: relative;
-    }
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-    .gallery-container {
-      width: 60%;
-    }
-    .gallery-grid {
-      display: flex;
-      flex-direction: column;
-    }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
   }
+  .gallery-container {
+    width: 60%;
+  }
+  .gallery-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
   
