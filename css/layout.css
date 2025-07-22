@@ -25,6 +25,7 @@ main {
   width: 100px;
   height: auto;
   object-fit: cover;
+  position: relative;
 }
 .responsive-thumbnail {
   max-width: 100%;
