@@ -50,6 +50,7 @@ main {
 
 footer {
   padding: 1vw;
+
 }
 .clearfix {
   clear: both;
@@ -106,7 +107,7 @@ footer {
   }
   .topnav a {
     display: block;
-    color: #2e6c85;
+    color: #39abdd;
     text-align: center;
     padding: 20px;
     text-decoration: none;
