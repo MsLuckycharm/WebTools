@@ -153,12 +153,23 @@ a:hover {
 }
 /* form styles */
 fieldset {
-    padding: 1em;
-    border-radius:1em;
+	margin: 20px;
+    padding: 20px;
+    border: 2px solid;
 }
 form p {
     padding: 1vw;
     margin-bottom: 6px;
+}
+.input-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+.input-table caption {
+	caption-side: top;
+	font-weight: bold;
+	margin-bottom: 8px;
 }
 input [type=submit] {
     background-color:#0a6b96;
