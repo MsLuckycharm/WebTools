@@ -5,7 +5,7 @@
 	box-sizing: inherit;
 }
 body {
-	background-color: whitesmoke;
+	background-color: #d9d9d9;
 }
 main { 
 	color: #202020;
@@ -101,7 +101,7 @@ table,th, td {
 	border: 1px, solid #003d4d;
 	padding: 12px;
 	margin: 6px;
-	background-color: #d9d9d9;
+	background-color: whitesmoke;
 	box-sizing: border-box;
 }
 th {
@@ -172,7 +172,7 @@ input {
     padding : 3px;
 }
 textarea {
-    width: 100px;
+    width: 200px;
 }
 
 table {
