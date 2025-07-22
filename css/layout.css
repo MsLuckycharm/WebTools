@@ -14,13 +14,22 @@ main {
   background-color: #dcdcdc;
 }
 .logo {
-  max-width: 50%;
+  width: 150px;
   height: auto;
   display: block;
   margin: 15px auto;
   position: absolute;
+  object-fit: contain;
 }
-  
+.thumbnail {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+.responsive-thumbnail {
+  max-width: 100%;
+  height: auto;
+}
 .gallery-grid {
   display: flex;
   flex-direction: row;
