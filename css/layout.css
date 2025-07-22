@@ -71,8 +71,8 @@ footer {
 /* Style the links inside the navigation bar */
 .topnav a {
   display: block;
-  color: #2e6c85;
-  text-align: center;
+  color: #39abdd;
+  text-align: horizontal;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;

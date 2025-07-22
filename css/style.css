@@ -48,7 +48,7 @@ h2, h4, h5, figcaption, dt, legend {
 	margin-top: 1em;
 }
 h3 {
-	color: #2e6c85;
+	color: #39abdd;
 	margin-top: 1em;
 }
 p {
@@ -98,7 +98,7 @@ figcaption {
 }
 /* tables styles */
 table,th, td {
-	border: 1px, solid #003d4d;
+	border: 1px, solid #39abdd;
 	padding: 12px;
 	margin: 6px;
 	background-color: whitesmoke;
@@ -106,13 +106,13 @@ table,th, td {
 }
 th {
 	width: 150px;
-	color: #2e6c85;
+	color: #39abdd;
 }
 td data { 
 	text-align: center;
 }
 td { 
-	color: #092834;
+	color: #39abdd;
 }
 thead {
 	background-color: white;
@@ -157,7 +157,7 @@ form p {
     margin-bottom: 6px;
 }
 input [type=submit] {
-    background-color:#092834;
+    background-color:#39abdd;
     color: whitesmoke;
     font-size: large;
 }
@@ -168,7 +168,7 @@ input [type=reset] {
 }
 input {
     border: none;
-    border-bottom: 1.5px solid #092834;
+    border-bottom: 1.5px solid #39abdd;
     padding : 3px;
 }
 textarea {
