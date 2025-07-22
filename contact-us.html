@@ -41,30 +41,40 @@
                 <legend>Tell Us About Your Interests!</legend>
                    
                 <label for="tech-interest"> Which coding languages are you interested in?</label>
-                <table border="1" cellpadding="5" cellspacing="2" class="input-table">
-                    <caption> Technology Selection for Aspiring Coders</caption>
+                <table class="input-table">
+                    <caption>Choose Your Coding Adventure</caption>
                     <thead>
                         <tr>
-                            <th scope="col">Coding Languages</th>
-                            <th scope="col">Select Your Interests</th>
+                            <th>&nbsp;</th>
+                            <th scope="col" abbr="Coding Languages" id="col1">Coding Languages</th>
+                            <th scope="col" abbr="Select Your Interests" id="col2">Select Your Interests</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row"> HTML</th>
-                            <td><input type="checkbox" name="tech-interest" value="HTML"> </td>
+                            <th scope="row">HTML/CSS</th>
+                            <td headers="=col1">Markup and styling languages use to build and design web pages.</td>
+                            <td><input type="checkbox" name="tech-interest" value="HTML/CSS"> </td>
                         </tr>
                         <tr>
-                            <th scope="row">CSS</th>
-                            <td><input type="checkbox" name="tech-interest" value="CSS"> </td>
+                            <th scope="row">C++</th>
+                            <td headers="=col1">Powerful language often used in games, systems, and performance-heavy apps.</td>
+                            <td><input type="checkbox" name="tech-interest" value="C++"> </td>
                         </tr>
                         <tr>
                             <th scope="row">Python</th>
+                            <td headers="=col1">Great for beginners; used in web, data, and automation.</td>
                             <td><input type="checkbox" name="tech-interest" value="Python"> </td>
                         </tr>
                         <tr>
                             <th scope="=SQL">SQL</th>
+                            <td headers="=col1">Language used to manage and query data in relational databases.</td>
                             <td><input type="checkbox" name="tech-interest" value="SQL"> </td>
+                        </tr>
+                        <tr>
+                            <th scope="=SQL">Java</th>
+                            <td headers="=col1">The language of the web; used for interactivity and front-end development.</td>
+                            <td><input type="checkbox" name="tech-interest" value="Java"> </td>
                         </tr>
                     </tbody>
                 </table>

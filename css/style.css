@@ -181,6 +181,8 @@ position: center;
 border-collapse: collapse;
 margin: 20px auto;
 font-family: Georgia, 'Times New Roman', Times, serif;
+border-spacing: 10px;
+empty-cells: hide;
 }
 
 .input-table {
