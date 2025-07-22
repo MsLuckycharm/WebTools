@@ -14,7 +14,7 @@ main {
   background-color: #dcdcdc;
 }
 .logo {
-  width: 150px;
+  width: 60px;
   height: auto;
   display: block;
   margin: 15px auto;
@@ -22,7 +22,7 @@ main {
   object-fit: contain;
 }
 .thumbnail {
-  width: 150px;
+  width: 60px;
   height: auto;
   object-fit: cover;
 }
