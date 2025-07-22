@@ -88,7 +88,7 @@
   .topnav a.active {
     color: black;
     background-color: whitesmoke;
-    color: white;
+
   }
   
   .topnav .icon {
@@ -99,7 +99,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display: center;
     background-color: white;
   }
   
