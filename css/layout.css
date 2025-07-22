@@ -11,7 +11,7 @@
     padding: 8px 16px;
     width: 78vw;
     float: right;
-    background-color: whitesmoke;
+    background-color: #8c8c8c;
   }
   .logo {
     max-width: 100%;
@@ -61,7 +61,7 @@
     font-family: "Georgia", cursive;
     font-size: medium;
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: white;
     width: 10vw;
     float: center;
     position: sticky;
