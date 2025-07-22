@@ -97,9 +97,9 @@ figcaption {
 	text-align: center;
 }
 /* tables styles */
-table, th, td {
+table,th, td {
 	border: 1px, solid #003d4d;
-	padding: 4px;
+	padding: 12px;
 	margin: 6px;
 	background-color: #d9d9d9;
 	box-sizing: border-box;
@@ -114,6 +114,19 @@ td data {
 td { 
 	color: #092834;
 }
+thead {
+	background-color: white;
+}
+
+tbody tr:nth-child(even) {
+	background-color: white;
+}
+
+tbody tr:hover {
+	background-color: white;
+}
+
+
 .accent1 {
 	background-color: #d9d9d9;
 	color: #8c8c8c;
@@ -161,6 +174,14 @@ input {
 textarea {
     width: 100px;
 }
+
+table {
+width: 80%;
+border-collapse: collapse;
+margin: 20px auto;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .input-table {
 	width: 50%;
 	margin: 2rem auto;
@@ -183,7 +204,7 @@ textarea {
   .input-table th,
   .input-table td {
 	border: 1px solid whitesmoke;
-	padding: 0.75rem;
+	padding: 12px;
 	text-align: left;
   }
   
