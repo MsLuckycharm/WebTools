@@ -99,7 +99,7 @@ figcaption {
 /* tables styles */
 table,th, td {
 	border: 1px, solid #39abdd;
-	padding: 12px;
+	padding: 10px;
 	margin: 6px;
 	background-color: whitesmoke;
 	box-sizing: border-box;
@@ -124,6 +124,10 @@ tbody tr:nth-child(even) {
 
 tbody tr:hover {
 	background-color: white;
+}
+th.checkbox-col,td.checkbox-col {
+	width: 40px;
+	text-align: center;
 }
 
 
