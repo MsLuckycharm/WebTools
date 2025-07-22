@@ -53,29 +53,33 @@
     font-family: "Georgia", cursive;
     font-size: medium;
     overflow: hidden;
-    background-color: #f0f0f0;
+    background-color: black;
     width: 10vw;
     float: left
-    position:fixed;
+    position:sticky;
+    overflow: hidden;
   }
-  
+/* Style the links inside the navigation bar */
   .topnav a {
     display: block;
     color: #092834;
-    text-align: left;
-    padding: 15px;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    font-size: 1vw;
+    font-size: 17px;
+    float: left;
   }
-  
+  /* Change the color of links on hover */
   .topnav a:hover {
     color: #8c8c8c;
     background-color: whitesmoke;
   }
   
+/* Add a color to the active/current link */
   .topnav a.active {
     color: #2e6c85;
     background-color: whitesmoke;
+    color: white;
   }
   
   .topnav .icon {
