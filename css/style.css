@@ -176,7 +176,8 @@ textarea {
 }
 
 table {
-width: 80%;
+width: 60%;
+position: center;
 border-collapse: collapse;
 margin: 20px auto;
 font-family: Georgia, 'Times New Roman', Times, serif;
