@@ -20,6 +20,7 @@
         <h1>Contact Us</h1>
     </header>
     <img src="images/CharmCentralLogo.png" alt="Company Logo" class="logo">
+    <main>
         <section>
             <h2>Get in Touch with Us</h2>
             <p>Have a question about CharmCentral's coding journey? Send us a message!</p>
@@ -33,50 +34,51 @@
                     <input type="email" id="email" name="email" required />
                 </fieldset>
                 <fieldset>
-                <legend>Tell Us About Your Interests!</legend>   
-                <table>
-                    <caption>Choose Your Coding Adventure</caption>
-                    <thead>
-                        <tr>
-                            <th scope="col" abbr="languages" id="col1">Coding Languages</th>
-                            <th scope="col" abbr="description" id="col2">Description</th>
-                            <th scope="col" abbr="Interests" id="col3">Select Your Interests</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th headers="col1">HTML/CSS</th>
-                            <td headers="col2">Markup and styling languages use to build and design web pages.</td>
-                            <td headers="col3"><input type="checkbox" name="tech-interest" value="HTML/CSS"> </td>
-                        </tr>
-                        <tr>
-                            <th headers="col1">C++</th>
-                            <td headers="col2">Powerful language often used in games, systems, and performance-heavy apps.</td>
-                            <td headers="col3"><input type="checkbox" name="tech-interest" value="C++"> </td>
-                        </tr>
-                        <tr>
-                            <th headers="col1">Python</th>
-                            <td headers="col2">Great for beginners; used in web, data, and automation.</td>
-                            <td headers="col3"><input type="checkbox" name="tech-interest" value="Python"> </td>
-                        </tr>
-                        <tr>
-                            <th headers="col1">SQL</th>
-                            <td headers="col2">Language used to manage and query data in relational databases.</td>
-                            <td headers="col3"><input type="checkbox" name="tech-interest" value="SQL"> </td>
-                        </tr>
-                        <tr>
-                            <th headers="col1">Java</th>
-                            <td headers="col2">The language of the web; used for interactivity and front-end development.</td>
-                            <td headers="col3"><input type="checkbox" name="tech-interest" value="Java"> </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </fieldset>
-            <fieldset>
-                <legend>Your Message to CharmCentral</legend>
-                <label for="message">Message: </label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-            </fieldset>
+                    <legend>Tell Us About Your Interests!</legend>   
+                
+                    <table>
+                        <caption>Choose Your Coding Adventure</caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col" abbr="languages" id="col1">Coding Languages</th>
+                                    <th scope="col" abbr="description" id="col2">Description</th>
+                                    <th scope="col" abbr="Interests" id="col3">Select Your Interests</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th headers="col1">HTML/CSS</th>
+                                    <td headers="col2">Markup and styling languages use to build and design web pages.</td>
+                                    <td headers="col3"><input type="checkbox" name="tech-interest" value="HTML/CSS"> </td>
+                                </tr>
+                                <tr>
+                                    <th headers="col1">C++</th>
+                                    <td headers="col2">Powerful language often used in games, systems, and performance-heavy apps.</td>
+                                    <td headers="col3"><input type="checkbox" name="tech-interest" value="C++"> </td>
+                                </tr>
+                                <tr>
+                                    <th headers="col1">Python</th>
+                                    <td headers="col2">Great for beginners; used in web, data, and automation.</td>
+                                    <td headers="col3"><input type="checkbox" name="tech-interest" value="Python"> </td>
+                                </tr>
+                                <tr>
+                                    <th headers="col1">SQL</th>
+                                    <td headers="col2">Language used to manage and query data in relational databases.</td>
+                                    <td headers="col3"><input type="checkbox" name="tech-interest" value="SQL"> </td>
+                                </tr>
+                                <tr>
+                                    <th headers="col1">Java</th>
+                                    <td headers="col2">The language of the web; used for interactivity and front-end development.</td>
+                                    <td headers="col3"><input type="checkbox" name="tech-interest" value="Java"> </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Your Message to CharmCentral</legend>
+                            <label for="message">Message: </label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                    </fieldset>
 
                 <button type="submit">Send Message</button>
             </form>
