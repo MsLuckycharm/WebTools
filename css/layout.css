@@ -13,11 +13,11 @@ main {
   background-color: #dcdcdc;
 }
 .logo {
-  width: 30px;
+  width: 100px;
   height: auto;
   display: block;
   margin: 15px auto;
-  position: absolute;
+  position: relative;
   object-fit: contain;
 }
 .thumbnail {
