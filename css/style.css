@@ -46,7 +46,7 @@ h1 {
 	padding: 2vw;
 	margin: 0px;
 }
-h2, h4, h5, figcaption, dt, legend {
+h2, h4, h5, figcaption, dt{
 	color: #663399;
 	font-family: 'Verdana';
 	margin-top: 1em;
@@ -221,9 +221,14 @@ a:hover {
 }
 /* form styles */
 fieldset {
-	margin: 20px;
-    padding: 20px;
+	margin: 1.5rem 0;
+    padding: 1rem;
     border: 2px solid;
+	background-color: #f9f9f9;
+}
+legend {
+	font-weight: bold;
+	padding: 0 0.5rem;
 }
 form p {
     padding: 1vw;
