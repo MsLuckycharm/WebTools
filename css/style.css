@@ -107,6 +107,7 @@ th, td {
 	padding: 0.5rem;
 	background-color: whitesmoke;
 	box-sizing: border-box;
+	text-align: left;
 }
 th {
 	width: 150px;
@@ -157,7 +158,8 @@ box-sizing: border-box;
 table caption {
 	caption-side: top;
 	font-weight: bold;
-	margin-bottom: 8px;
+	margin-bottom: 0.5rem;
+	text-align: left;
 }
 table th, table td {
 	border: 1px solid;
