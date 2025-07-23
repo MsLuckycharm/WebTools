@@ -223,6 +223,11 @@ fieldset {
 	margin-bottom: 1.5rem;
 	background-color: #f9f9f9;
 }
+fieldset table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 1rem;
+}
 
 legend {
 	font-weight: bold;
