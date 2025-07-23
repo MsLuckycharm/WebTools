@@ -123,11 +123,11 @@ thead {
 }
 
 tbody tr:nth-child(even) {
-	background-color: white;
+	background-color: black;
 }
 
 tbody tr:hover {
-	background-color: white;
+	background-color: black;
 }
 th.checkbox-col,td.checkbox-col {
 	width: 40px;
