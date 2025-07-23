@@ -8,11 +8,11 @@ body {
 	background-color: #dcdcdc;
 	color: black;
 }
-main { 
+main, section { 
 	padding: 8px 16px;
 	width: 78vw;
 	float: right;
-	color: #dcdcdc;
+	color: black;
 }
 header {
 	background-color: #663399;
