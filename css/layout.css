@@ -92,7 +92,7 @@ footer {
   /* Change the color of links on hover */
 .topnav a:hover {
   color: #663399;
-  background-color: none;
+  background-color: white;
 }
   
 /* Add a color to the active/current link */
