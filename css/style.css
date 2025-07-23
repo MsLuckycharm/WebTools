@@ -5,10 +5,17 @@
 	box-sizing: inherit;
 }
 body {
+	display: flex;
+	margin: 0;
+	padding: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	background-color: #dcdcdc;
 }
 main { 
-	color: #202020;
+	padding: 8px 16px;
+	width: 78vw;
+	float: right;
+	color: #dcdcdc;
 }
 header {
 	background-color: #663399;
@@ -139,15 +146,27 @@ th.checkbox-col,td.checkbox-col {
 	font-weight: bold;
 	margin-bottom: 8px;
 }
+
 table {
-width: 60%;
+width: 100%;
 position: absolute;
 border-collapse: collapse;
-margin: 20px auto;
+margin: 20px;
+margin-bottom: 20px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 border-spacing: 10px;
 empty-cells: hide;
 box-sizing: border-box;
+}
+table caption {
+	caption-side: top;
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+table th, table td {
+	border: 1px solid;
+	padding: 10px;
+	text-align: left;
 }
 
 .input-table {

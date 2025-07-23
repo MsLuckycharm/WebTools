@@ -69,9 +69,12 @@ footer {
     font-size: medium;
     overflow: hidden;
     background-color: #dcdcdc;
-    width: 10vw;
+    width: 15vw;
     position: sticky;
     overflow: hidden;
+    height: 100vh;
+    top: 0;
+    padding: 10px;
   
   }
 /* Style the links inside the navigation bar */

@@ -12,8 +12,7 @@
    
 </head>
 <body>
-    <nav>
-        <nav class="topnav">
+    <nav class="topnav">
             <a href="index.html">Home</a>
             <a href="contact-us.html">Contact</a>
             <a href="about-us.html">About</a>
@@ -22,19 +21,20 @@
         <h1>Contact Us</h1>
     </header>
     <img src="images/CharmCentralLogo.png" alt="Company Logo" class="logo">
-    <section>
-        <h2>Get in Touch with Us</h2>
-        <p>Have a question about CharmCentral's coding journey? Send us a message!</p>
-        <form name="contact" action="success.html" method="get">
-            <fieldset>
+    <main>
+        <section>
+            <h2>Get in Touch with Us</h2>
+            <p>Have a question about CharmCentral's coding journey? Send us a message!</p>
+            <form name="contact" action="success.html" method="get">
+                <fieldset>
                 <legend>Your Details</legend>
-                <label for="name">Name: </label>
-                <input type="text" id="name" name="name" required />
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" name="name" required />
 
-                <label for="email">Email: </label>
-                <input type="email" id="email" name="email" required />
-            </fieldset>
-            <fieldset>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required />
+                </fieldset>
+                <fieldset>
                 <legend>Tell Us About Your Interests!</legend>   
                 <table>
                     <caption>Choose Your Coding Adventure</caption>
@@ -53,22 +53,22 @@
                         </tr>
                         <tr>
                             <th headers="col1">C++</th>
-                            <td headers="=col2">Powerful language often used in games, systems, and performance-heavy apps.</td>
+                            <td headers="col2">Powerful language often used in games, systems, and performance-heavy apps.</td>
                             <td headers="col3"><input type="checkbox" name="tech-interest" value="C++"> </td>
                         </tr>
                         <tr>
                             <th headers="col1">Python</th>
-                            <td headers="=col2">Great for beginners; used in web, data, and automation.</td>
+                            <td headers="col2">Great for beginners; used in web, data, and automation.</td>
                             <td headers="col3"><input type="checkbox" name="tech-interest" value="Python"> </td>
                         </tr>
                         <tr>
-                            <th headers="=col1">SQL</th>
-                            <td headers="=col2">Language used to manage and query data in relational databases.</td>
+                            <th headers="col1">SQL</th>
+                            <td headers="col2">Language used to manage and query data in relational databases.</td>
                             <td headers="col3"><input type="checkbox" name="tech-interest" value="SQL"> </td>
                         </tr>
                         <tr>
-                            <th headers="=col1">Java</th>
-                            <td headers="=col2">The language of the web; used for interactivity and front-end development.</td>
+                            <th headers="col1">Java</th>
+                            <td headers="col2">The language of the web; used for interactivity and front-end development.</td>
                             <td headers="col3"><input type="checkbox" name="tech-interest" value="Java"> </td>
                         </tr>
                     </tbody>
@@ -80,9 +80,10 @@
                 <textarea id="message" name="message" rows="5" required></textarea>
             </fieldset>
 
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
     <footer>
         <p>Copyright 2025 CharmCentral. Crafted with passion and purpose. All rights reserved</p>
         <p>Visit the <a href="https://www.dallascollege.edu" target = "blank">Dallas College</a> website for more information. </p>
