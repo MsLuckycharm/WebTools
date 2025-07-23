@@ -70,6 +70,7 @@ dd {
 	font-family: Georgia, sans-serif;
 	line-height: 1.35;
 	margin-top: 1em;
+
 }
 dd a { 
 	font-size: small;
@@ -215,16 +216,23 @@ a:hover {
 	text-decoration: none;
 }
 /* form styles */
+
 fieldset {
 	border: 2px solid #0a6b96;
 	padding: 1rem;
 	margin-bottom: 1.5rem;
 	background-color: #f9f9f9;
 }
+
 legend {
 	font-weight: bold;
 	padding: 0 0.5rem;
 }
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+  }
 form p {
     padding: 1vw;
     margin-bottom: 6px;
