@@ -103,6 +103,10 @@ figure img {
 figcaption {
 	text-align: center;
 }
+caption {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
 /* tables styles */
 table,th, td {
 	border: 1px solid #0a6b96;
@@ -110,6 +114,7 @@ table,th, td {
 	margin: 6px;
 	background-color: whitesmoke;
 	box-sizing: border-box;
+	text-align: left;
 }
 th {
 	width: 150px;
@@ -154,7 +159,7 @@ border-collapse: collapse;
 margin: 20px;
 margin-bottom: 20px;
 font-family: Georgia, 'Times New Roman', Times, serif;
-border-spacing: 10px;
+border-spacing: 5px;
 empty-cells: hide;
 box-sizing: border-box;
 }
@@ -198,10 +203,7 @@ table th, table td {
   .input-table th[scope="row"] {
 	background-color: whitesmoke;
 	font-weight: normal;
-  }
-  
-
-
+}
 .accent1 {
 	background-color: #d9d9d9;
 	color: #8c8c8c;
