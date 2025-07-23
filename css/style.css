@@ -103,8 +103,7 @@ figcaption {
 /* tables styles */
 table,th, td {
 	border: 1px solid #0a6b96;
-	padding: 10px;
-	margin: 6px;
+	padding: 0.5rem;
 	background-color: whitesmoke;
 	box-sizing: border-box;
 }
@@ -148,8 +147,7 @@ table {
 width: 100%;
 position: absolute;
 border-collapse: collapse;
-margin: 20px;
-margin-bottom: 20px;
+margin-top: 1rem;
 font-family: Georgia, 'Times New Roman', Times, serif;
 border-spacing: 10px;
 empty-cells: hide;
@@ -221,9 +219,9 @@ a:hover {
 }
 /* form styles */
 fieldset {
-	margin: 1.5rem 0;
-    padding: 1rem;
-    border: 2px solid;
+	border: 2px solid #0a6b96;
+	padding: 1rem;
+	margin-bottom: 1.5rem;
 	background-color: #f9f9f9;
 }
 legend {
