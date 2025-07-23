@@ -14,7 +14,7 @@ main {
   height: auto;
   display: block;
   margin: 15px auto;
-  position: absolute;
+  position: static;
   object-fit: contain;
 }
 .thumbnail {
