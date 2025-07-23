@@ -101,7 +101,7 @@ figcaption {
 	text-align: center;
 }
 /* tables styles */
-table,th, td {
+th, td {
 	border: 1px solid #0a6b96;
 	padding: 0.5rem;
 	background-color: whitesmoke;
@@ -193,10 +193,7 @@ table th, table td {
   .input-table th[scope="row"] {
 	background-color: whitesmoke;
 	font-weight: normal;
-  }
-  
-
-
+}
 .accent1 {
 	background-color: #d9d9d9;
 	color: #8c8c8c;
