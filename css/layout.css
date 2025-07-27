@@ -10,12 +10,13 @@ main {
   background-color: #dcdcdc;
 }
 .logo img {
-  width: 80px;
+  width: 150px;
   height: auto;
   display: block;
   margin: 15px auto;
   position: sticky;
   object-fit: contain;
+  max-width: 100%;
 
 }
 .thumbnail {
