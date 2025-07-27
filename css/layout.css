@@ -12,6 +12,7 @@ main {
   margin-left: 240px;
   box-sizing: border-box;
   flex-grow: 1;
+  grid-area: main;
 }
 .logo {
   width: auto;
@@ -35,19 +36,9 @@ main {
   height: auto;
 }
 aside {
-  text-align: center;
-  left: 0;
-  top: 20px;
-  align-items: calc(100vh - 40px);
-  overflow: auto;
-  border-radius: 8px;
-  width: 200px;
+  grid-area: aside;
+  background-color: #f9f9f9;
   padding: 20px;
-  height: fit-content;
-  box-sizing: border-box;
-  align-self: flex-start;
-  position: sticky;
-  box-sizing: border-box;
 }
 aside a {
   text-decoration: none;
@@ -174,6 +165,10 @@ footer {
   
   }
 /* Style the links inside the navigation bar */
+nav.topnav {
+  grid-area: nav;
+}
+
 .topnav a {
   color: #0a6b96;
   text-align: center;

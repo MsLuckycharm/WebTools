@@ -9,10 +9,16 @@
 body {
 	background-color: #dcdcdc;
 	color: black;
-	display: flex;
+	display: grid;
 	scroll-behavior: smooth;
 	min-height: 100vh;
 	margin: 0;
+	grid-template-areas: 
+	"nav nav"
+	"aside main";
+	grid-template-columns: 250px 1fr;
+	grid-template-rows: auto 1fr;
+	min-height: 100vh;
 }
 main, section { 
 	padding: 8px 16px;
@@ -24,6 +30,7 @@ header {
 	background-color: #663399;
 	width: 100%;
 	padding: 10px 20px;
+	text-align: center;
 }
 header img {
 	position: absolute;
