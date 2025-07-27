@@ -2,6 +2,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 main {
   padding: 8px 16px;
@@ -37,14 +38,16 @@ aside {
   padding: 20px;
   height: 100vh;
   box-sizing: border-box;
+  position: sticky;
 }
 aside a {
   text-decoration: none;
   display: block;
   margin-bottom: 10px;
 }
-aside a:hover {
-  color
+article {
+  flex: 1;
+  padding: 40px;
 }
 .gallery-grid {
   display: flex;
