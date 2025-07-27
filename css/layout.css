@@ -87,6 +87,46 @@ nav img {
   max-width: 100%;
 }
 
+
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+}
+
+.top-header aside .logo {
+  height: 60px;
+  width: auto;
+}
+
+.top-header h1 {
+  margin: 0 20px;
+  font-size: 1.8rem;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.top-header nav.topnav {
+  display: flex;
+  gap: 15px;
+}
+
+.top-header nav.topnav a {
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.top-header nav.topnav a:hover {
+  background-color: #0077cc;
+  color: white;
+}
+
+
 .gallery-grid {
   display: flex;
   flex-direction: row;
