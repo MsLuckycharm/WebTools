@@ -5,11 +5,9 @@ html {
   scroll-behavior: smooth;
 }
 main {
+  grid-area: main;
   padding: 20px;
-  width: 78vw;
-  float: right;
   background-color: #dcdcdc;
-  margin-left: 240px;
   box-sizing: border-box;
   flex-grow: 1;
   grid-area: main;
@@ -18,7 +16,7 @@ main {
   width: auto;
   height: 60px;
   display: block;
-  margin: 15px auto;
+  margin: 15px auto 20px auto;
   position: sticky;
   object-fit: contain;
   max-width: 100%;
@@ -49,7 +47,6 @@ article {
   flex: 1;
   padding: 40px;
   max-width: 800px;
-  margin-left: 240px;
 }
 
 
@@ -78,6 +75,13 @@ nav img {
   max-width: 100%;
 }
 
+header {
+  grid-area: header;
+  background-color: #663399;
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
 
 .top-header {
   display: flex;
@@ -153,20 +157,23 @@ footer {
   
   /* responsive design */
 .topnav {
-    color: #0a6b96;
-    display: flex;
-    padding: 10px 0;
-    font-family: "Georgia", cursive;
-    font-size: medium;
-    position: sticky;
-    overflow: hidden;
-    gap: 15px;
-    justify-content: center;
-  
-  }
+  color: #0a6b96;
+  display: flex;
+  padding: 10px 0;
+  font-family: "Georgia", cursive;
+  font-size: medium;
+  position: sticky;
+  overflow: hidden;
+  gap: 15px;
+  justify-content: center; 
+}
 /* Style the links inside the navigation bar */
 nav.topnav {
   grid-area: nav;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
 }
 
 .topnav a {
