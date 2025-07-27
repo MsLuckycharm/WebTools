@@ -10,7 +10,7 @@ main {
   background-color: #dcdcdc;
 }
 .logo img {
-  width: 100px;
+  width: 80px;
   height: auto;
   display: block;
   margin: 15px auto;
@@ -27,6 +27,11 @@ main {
 .responsive-thumbnail {
   max-width: 100%;
   height: auto;
+}
+aside {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 .gallery-grid {
   display: flex;
