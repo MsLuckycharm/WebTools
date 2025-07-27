@@ -2,6 +2,8 @@
 *,
 *:before,
 *:after {
+	margin: 0;
+	padding: 0;
 	box-sizing: inherit;
 }
 body {
@@ -17,6 +19,7 @@ main, section {
 header {
 	background-color: #663399;
 	width: 100%;
+	padding: 10px 20px;
 }
 header img {
 	position: absolute;

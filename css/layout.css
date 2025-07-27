@@ -9,13 +9,14 @@ main {
   float: right;
   background-color: #dcdcdc;
 }
-.logo {
+.logo img {
   width: 100px;
   height: auto;
   display: block;
   margin: 15px auto;
-  position: relative;
+  position: sticky;
   object-fit: contain;
+
 }
 .thumbnail {
   width: 100px;
