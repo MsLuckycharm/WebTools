@@ -81,6 +81,13 @@ article {
   color: #0077cc;
 }
 
+nav img {
+  width: 120px;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
 .gallery-grid {
   display: flex;
   flex-direction: row;
