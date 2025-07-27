@@ -5,19 +5,21 @@ html {
   scroll-behavior: smooth;
 }
 main {
-  padding: 8px 16px;
+  padding: 20px;
   width: 78vw;
   float: right;
   background-color: #dcdcdc;
+  margin-left: 240px;
 }
-.logo img {
-  width: 150px;
+.logo {
+  width: 120px;
   height: auto;
   display: block;
   margin: 15px auto;
   position: sticky;
   object-fit: contain;
   max-width: 100%;
+  margin-bottom: 20px;
 
 }
 .thumbnail {
@@ -63,11 +65,12 @@ article {
   border-right: 1px solid #ddd;
   padding: 20px;
   overflow-y: auto;
+  margin-top: 0;
 }
 
 .toc ul {
   list-style: none;
-  padding: 0;
+  padding-left: 0;
 }
 
 .toc a {
@@ -75,6 +78,7 @@ article {
   color: #333;
   text-decoration: none;
   margin-bottom: 10px;
+  margin: 8px 0;
 }
 
 .toc a:hover {
