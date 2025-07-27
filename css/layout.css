@@ -10,6 +10,8 @@ main {
   float: right;
   background-color: #dcdcdc;
   margin-left: 240px;
+  box-sizing: border-box;
+  flex-grow: 1;
 }
 .logo {
   width: 120px;
@@ -41,7 +43,10 @@ aside {
   border-radius: 8px;
   width: 200px;
   padding: 20px;
-  height: 100vh;
+  height: fit-content;
+  box-sizing: border-box;
+  align-self: flex-start;
+  position: sticky;
   box-sizing: border-box;
 }
 aside a {
