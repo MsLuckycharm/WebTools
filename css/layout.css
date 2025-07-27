@@ -30,9 +30,21 @@ main {
   height: auto;
 }
 aside {
-  width: 100%;
+  position:fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
   padding: 20px;
+  height: 100vh;
   box-sizing: border-box;
+}
+aside a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+aside a:hover {
+  color
 }
 .gallery-grid {
   display: flex;
