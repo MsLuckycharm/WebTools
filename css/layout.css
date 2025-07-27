@@ -170,16 +170,18 @@ footer {
     position: sticky;
     overflow: hidden;
     gap: 15px;
+    justify-content: center;
   
   }
 /* Style the links inside the navigation bar */
 .topnav a {
-  display: inline-block;
   color: #0a6b96;
   text-align: center;
   padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: 600;
+  border-radius: 4px;
 }
 .topnav ul {
   list-style-type: none;
