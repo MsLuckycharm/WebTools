@@ -48,7 +48,39 @@ aside a {
 article {
   flex: 1;
   padding: 40px;
+  max-width: 800px;
+  margin-left: 240px;
 }
+
+
+.toc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 220px;
+  height: 100vh;
+  background-color: #f8f8f8;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.toc ul {
+  list-style: none;
+  padding: 0;
+}
+
+.toc a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.toc a:hover {
+  color: #0077cc;
+}
+
 .gallery-grid {
   display: flex;
   flex-direction: row;
