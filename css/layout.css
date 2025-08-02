@@ -251,6 +251,8 @@ nav a {
   flex-wrap: wrap;
   gap: 2rem;
   padding: 2rem;
+  margin: 0;
+  max-width: 500px;
   text-align: center;
 }
 .team-cards .card {
