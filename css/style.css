@@ -12,7 +12,8 @@ body {
 	display: grid;
 	scroll-behavior: smooth;
 	min-height: 100vh;
-	margin: 0;
+	margin: 0 auto;
+	max-width: 800px;
 	grid-template-areas: 
 	"header header"
 	"nav nav"
@@ -20,7 +21,9 @@ body {
 	"footer footer";
 	grid-template-columns: 250px 1fr;
 	grid-template-rows: auto auto 1fr auto;
+	box-sizing: border-box;
 	min-height: 100vh;
+	padding: 0 1rem;
 }
 main, section { 
 	padding: 8px 16px;
@@ -127,8 +130,17 @@ figure img {
 	max-width: 100%;
 	width: 100%;
 	height: auto;
-	float: right;
+	float: none;
 }
+figure img.thumbnail {
+	width: 350px;        /* fixed width or adjust as needed */
+	max-width: 100%;     /* responsive limit */
+	height: auto;
+	float: none;         /* remove float so it doesn’t push content */
+	margin: 1em auto;    /* vertical margin + center horizontally */
+	display: block;
+}
+  
 figcaption {
 	text-align: center;
 }
