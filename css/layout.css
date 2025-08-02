@@ -250,7 +250,8 @@ nav a {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 2rem 0;
+  padding: 2rem 1rem;
+  text-align: center;
 }
 .team-cards .card {
   flex: 1 1 250px;
@@ -279,6 +280,19 @@ nav a {
   font-style: italic;
   color: #444;
 }
+.card {
+  display: flex;
+  flex-direction: column; /* stack image + text vertically */
+  align-items: center;
+  flex: 1 1 250px;
+  max-width: 280px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  padding: 1rem;
+  background: #fafafa;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
 .card figure {
   margin: 0;
   padding: 0;
@@ -291,10 +305,13 @@ nav a {
   border-radius: 50%;
   margin-bottom: 0.5rem;
 }
+.card p {
+  margin: 0.5rem 0;
+}
 
 .card figcaption {
   font-weight: bold;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   font-size: 1.1rem;
 }
 
