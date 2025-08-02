@@ -287,12 +287,13 @@ nav a {
   display: flex;
   flex-direction: column; /* stack image + text vertically */
   align-items: center;
-  flex: 1 1 250px;
-  max-width: 280px;
+  flex: 0 1 300px;
+  max-width: 300px;
   border: 1px solid black;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 1.2rem;
   background: #fafafa;
+  text-align: center;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
