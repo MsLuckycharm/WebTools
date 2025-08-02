@@ -250,17 +250,19 @@ nav a {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 2rem 1rem;
+  padding: 2rem;
   text-align: center;
 }
 .team-cards .card {
   flex: 1 1 250px;
   max-width: 300px;
   border: 1px solid #ccc;
+  border: 1px solid black;
   border-radius: 8px;
-  padding: 1rem;
+  padding: 1.2rem;
   background-color: #f9f9f9;
   text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .team-cards .card img {
   width: 100px;
@@ -274,6 +276,7 @@ nav a {
 .team-cards .card h3 {
   color: #777;
   font-size: 1rem;
+  margin-top: 0.5rem 0;
 }
 .client-descrip {
   margin-top: 1rem;
@@ -286,7 +289,7 @@ nav a {
   align-items: center;
   flex: 1 1 250px;
   max-width: 280px;
-  border: 1px solid #bbb;
+  border: 1px solid black;
   border-radius: 8px;
   padding: 1rem;
   background: #fafafa;
@@ -296,6 +299,9 @@ nav a {
 .card figure {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card img {
@@ -311,7 +317,8 @@ nav a {
 
 .card figcaption {
   font-weight: bold;
-  margin-bottom: 1rem;
+  color: black;
+  margin-bottom: 0.5rem;
   font-size: 1.1rem;
 }
 
