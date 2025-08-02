@@ -35,62 +35,76 @@
           </ul>
         </aside>
     
-    <!-- Main Content Area -->
-    <main class="product-grid-container">
-        <!-- Row 1 -->
-        <div class="product-card featured" style="grid-column: 2 / span 4; grid-row: 1;">
-          <img src="https://via.placeholder.com/300x200?text=Charm+Design+Suite" alt="Charm Design Suite" />
-          <h3>Charm Design Suite</h3>
-          <p>All-in-one UI/UX toolkit: wireframes, color palettes, fonts & accessibility helpers in one sleek interface.</p>
-        </div>
-  
-        <!-- Row 2 -->
-        <div class="product-card" style="grid-column: 1 / span 3; grid-row: 2;">
-          <img src="https://via.placeholder.com/250x150?text=UI+Kit" alt="Responsive UI Kit" />
-          <h3>Responsive UI Kit</h3>
-          <p>Mobile-first, customizable UI blocks for faster front-end workflows.</p>
-        </div>
-        <div class="product-card" style="grid-column: 4 / span 3; grid-row: 2;">
-          <img src="https://via.placeholder.com/250x150?text=Audit+Tool" alt="Accessibility Audit Tool" />
-          <h3>Accessibility Audit Tool</h3>
-          <p>Real-time WCAG analysis to fix contrast, structure, and navigation issues.</p>
-        </div>
-  
-        <!-- Row 3 -->
-        <div class="product-card" style="grid-column: 1 / span 2; grid-row: 3;">
-          <img src="https://via.placeholder.com/200x150?text=Color+Kit" alt="Color Harmony Kit" />
-          <h3>Color Harmony Kit</h3>
-          <p>Pre-built palettes curated for readability and brand identity.</p>
-        </div>
-        <div class="product-card" style="grid-column: 3 / span 2; grid-row: 3;">
-          <img src="https://via.placeholder.com/200x150?text=Typography+Guide" alt="Smart Typography Guide" />
-          <h3>Smart Typography Guide</h3>
-          <p>Scalable font systems with balance, clarity, and hierarchy.</p>
-        </div>
-        <div class="product-card" style="grid-column: 5 / span 2; grid-row: 3;">
-          <img src="https://via.placeholder.com/200x150?text=Code+Snippets" alt="Dev-Ready Code Snippets" />
-          <h3>Dev-Ready Code Snippets</h3>
-          <p>Reusable HTML/CSS components for forms, navs, buttons & more.</p>
-        </div>
-    </main>
-    </div>
-    <footer>
-        <div class="col">
-            <h4>External Links</h4>
-            <a href="https://www.dallascollege.edu">Dallas College</a><br>
-            <a href="https://chat.openai.com">ChatGPT</a><br>
-            <a href="https://www.microsoft.com/ai">Microsoft AI</a>
-        </div>
-        <div class="col center">
-            &copy; 2025 WebTools | Email: <a href="mailto:webmaster@example.com">webmaster@example.com</a>
-        </div>
-        <div class="col">
-            <h4>Site Navigation</h4>
-            <a href="about-us.html">About</a>
-            <a href="team.html">Meet the Team</a>
-            <a href="products.html">Products</a>
-            <a href="contact-us.html">Contact</a>
-        </div>
+        <main class="product-grid-container">
+            <!-- Row 1: Featured product spanning 4 columns, centered -->
+            <div class="product-card featured" 
+                 style="
+                   grid-column-start: 2; 
+                   grid-column-end: 6; 
+                   grid-row-start: 1; 
+                   grid-row-end: 2;">
+              <img src="https://via.placeholder.com/300x200?text=Charm+Design+Suite" alt="Charm Design Suite" />
+              <h3>Charm Design Suite</h3>
+              <p>All-in-one UI/UX toolkit: wireframes, color palettes, fonts & accessibility helpers in one sleek interface.</p>
+            </div>
+          
+            <!-- Row 2: Two products, each spanning 3 columns -->
+            <div class="product-card" 
+                 style="
+                   grid-column-start: 1; 
+                   grid-column-end: 4; 
+                   grid-row-start: 2; 
+                   grid-row-end: 3;">
+              <img src="https://via.placeholder.com/250x150?text=UI+Kit" alt="Responsive UI Kit" />
+              <h3>Responsive UI Kit</h3>
+              <p>Mobile-first, customizable UI blocks for faster front-end workflows.</p>
+            </div>
+          
+            <div class="product-card" 
+                 style="
+                   grid-column-start: 4; 
+                   grid-column-end: 7; 
+                   grid-row-start: 2; 
+                   grid-row-end: 3;">
+              <img src="https://via.placeholder.com/250x150?text=Audit+Tool" alt="Accessibility Audit Tool" />
+              <h3>Accessibility Audit Tool</h3>
+              <p>Real-time WCAG analysis to fix contrast, structure, and navigation issues.</p>
+            </div>
+          
+            <!-- Row 3: Three products, each spanning 2 columns -->
+            <div class="product-card" 
+                 style="
+                   grid-column-start: 1; 
+                   grid-column-end: 3; 
+                   grid-row-start: 3; 
+                   grid-row-end: 4;">
+              <img src="https://via.placeholder.com/200x150?text=Color+Kit" alt="Color Harmony Kit" />
+              <h3>Color Harmony Kit</h3>
+              <p>Pre-built palettes curated for readability and brand identity.</p>
+            </div>
+          
+            <div class="product-card" 
+                 style="
+                   grid-column-start: 3; 
+                   grid-column-end: 5; 
+                   grid-row-start: 3; 
+                   grid-row-end: 4;">
+              <img src="https://via.placeholder.com/200x150?text=Typography+Guide" alt="Smart Typography Guide" />
+              <h3>Smart Typography Guide</h3>
+              <p>Scalable font systems with balance, clarity, and hierarchy.</p>
+            </div>
+          
+            <div class="product-card" 
+                 style="
+                   grid-column-start: 5; 
+                   grid-column-end: 7; 
+                   grid-row-start: 3; 
+                   grid-row-end: 4;">
+              <img src="https://via.placeholder.com/200x150?text=Code+Snippets" alt="Dev-Ready Code Snippets" />
+              <h3>Dev-Ready Code Snippets</h3>
+              <p>Reusable HTML/CSS components for forms, navs, buttons & more.</p>
+            </div>
+        </main>          
     </footer>
     
 </body>
