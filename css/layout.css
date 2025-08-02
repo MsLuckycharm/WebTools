@@ -241,8 +241,11 @@ nav a {
 
 /* Team Section */
 .team-intro {
+  max-width: 700px;
+  margin: 0 auto;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem 2rem;
+  line-height: 1.5;
 }
 .team-cards {
   display: flex;
