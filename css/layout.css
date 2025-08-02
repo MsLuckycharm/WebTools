@@ -221,3 +221,82 @@ nav.topnav {
   white-space: nowrap;
   clip: rect(0,0,0,0);
 }
+/* NAV */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+.nav-left, .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Team Section */
+.team-intro {
+  text-align: center;
+  padding: 2rem;
+}
+.team-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+.card {
+  flex: 1 1 250px;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.card h2 {
+  margin-top: 1rem;
+}
+.card h3 {
+  color: #777;
+  font-size: 1rem;
+}
+.client-descrip {
+  margin-top: 1rem;
+  font-style: italic;
+  color: #444;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: #eee;
+  padding: 1.5rem;
+}
+footer .col {
+  flex: 1 1 200px;
+}
+footer a {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 0.25rem;
+}
+footer .center {
+  text-align: center;
+}
+
