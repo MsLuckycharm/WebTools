@@ -13,7 +13,7 @@ body {
 	scroll-behavior: smooth;
 	min-height: 100vh;
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 960px;
 	grid-template-areas: 
 	"header header"
 	"nav nav"
