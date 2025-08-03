@@ -54,6 +54,7 @@ article {
   flex: 1;
   padding: 40px;
   max-width: 800px;
+  text-align: left;
 }
 main article {
   max-width: 800px;

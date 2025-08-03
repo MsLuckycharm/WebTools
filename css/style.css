@@ -27,6 +27,7 @@ body {
 main, section { 
 	padding: 8px 16px;
 	color: black;
+	text-align: left;
 }
 header {
 	grid-area: header;
