@@ -162,6 +162,7 @@ header {
 }
 
 footer {
+  grid-area: footer;
   padding: 1vw;
 
 }

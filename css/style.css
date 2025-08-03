@@ -12,7 +12,7 @@ body {
 	display: grid;
 	scroll-behavior: smooth;
 	min-height: 100vh;
-	margin: 0 auto;
+	margin: 0;
 	grid-template-areas: 
 	"header header"
 	"nav nav"
@@ -29,6 +29,7 @@ main, section {
 	color: black;
 }
 header {
+	grid-area: header;
 	background-color: #663399;
 	width: 100%;
 	padding: 20px 0;
