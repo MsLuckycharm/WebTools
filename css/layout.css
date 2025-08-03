@@ -1,3 +1,11 @@
+/*Strutural elements styles */
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
 html {
   margin: 0;
   padding: 0;
@@ -253,8 +261,8 @@ nav a {
   align-items: flex-start;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 2rem;
-  margin: 0 auto 2rem auto;
+  padding: 1rem 0;
+  margin: 0 auto 1rem;
   max-width:  900px;
   text-align: center;
   line-height: 1.6;
