@@ -22,84 +22,103 @@
         <h1>Contact Us</h1>
     </header>
     <img src="images/CharmCentralLogo.png" alt="Company Logo" class="logo">
-    <main>
-        <section>
-            <h2>Get in Touch with Us</h2>
-            <p>Have a question about CharmCentral's coding journey? Send us a message!</p>
-            <form name="contact" action="success.html" method="get">
-                <fieldset>
-                <legend>Your Details</legend>
-                    <label for="name">Name: </label>
-                    <input type="text" id="name" name="name" required />
-
-                    <label for="email">Email: </label>
-                    <input type="email" id="email" name="email" required />
-                </fieldset>
-                <fieldset>
-                    <legend>Tell Us About Your Interests!</legend>   
-                
-                    <table  class="input-table">
-                        <caption>Choose Your Coding Adventure</caption>
-                            <thead>
-                                <tr>
-                                    <th scope="col" abbr="languages" id="col1">Coding Languages</th>
-                                    <th scope="col" abbr="description" id="col2">Description</th>
-                                    <th scope="col" abbr="Interests" id="col3">Select Your Interests</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th headers="col1">HTML/CSS</th>
-                                    <td headers="col2">Markup and styling languages use to build and design web pages.</td>
-                                    <td headers="col3">
-                                        <input type="checkbox" name="tech-interest" title="HTML/CSS" aria-labelledby="label-html/css"> 
-                                        <label for="html/css">HTML/CSS</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th headers="col1">C++</th>
-                                    <td headers="col2">Powerful language often used in games, systems, and performance-heavy apps.</td>
-                                    <td headers="col3">
-                                        <input type="checkbox" name="tech-interest" title="C++" aria-labelledby="label-c++"> 
-                                        <label for="C++">C++</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th headers="col1" id="label-python">Python</th>
-                                    <td headers="col2">Great for beginners; used in web, data, and automation.</td>
-                                    <td headers="col3">
-                                        <input type="checkbox" name="tech-interest" title="Python" aria-labelledby="label-python">
-                                        <label for="python">Python</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th headers="col1" id="label-sql">SQL</th>
-                                    <td headers="col2">Language used to manage and query data in relational databases.</td>
-                                    <td headers="col3">
-                                        <input type="checkbox" name="tech-interest" title="SQL" aria-labelledby="label-sql">
-                                        <label for="sql">SQL</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th headers="col1">Java</th>
-                                    <td headers="col2">The language of the web; used for interactivity and front-end development.</td>
-                                    <td headers="col3">
-                                        <input type="checkbox" name="tech-interest" title="Java" aria-labelledby="label-java"> 
-                                        <label for="Java">Java</label>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Your Message to CharmCentral</legend>
-                            <label for="message">Message: </label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                    </fieldset>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
+    <section>
+        <h2>Get in Touch</h2>
+        <form name="contact" method="get" action="success.html" style="max-width: 70%; margin: auto;">
+          <fieldset>
+            <legend>Contact Form</legend>
+  
+            <p>
+              <label for="name">Full Name:</label><br>
+              <input type="text" id="name" name="name" required>
+            </p>
+  
+            <p>
+              <label for="email">Email Address:</label><br>
+              <input type="email" id="email" name="email" required>
+            </p>
+  
+            <p>
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message" rows="5" cols="50" required></textarea>
+            </p>
+  
+            <fieldset>
+              <legend>Preferred Contact Method:</legend>
+              <input type="radio" id="email-radio" name="contact-method" value="email" checked>
+              <label for="email-radio">Email</label><br>
+              <input type="radio" id="phone-radio" name="contact-method" value="phone">
+              <label for="phone-radio">Phone</label>
+            </fieldset>
+  
+            <fieldset>
+              <legend>Topics of Interest:</legend>
+              <input type="checkbox" id="html" name="topics" value="HTML">
+              <label for="html">HTML</label><br>
+              <input type="checkbox" id="css" name="topics" value="CSS">
+              <label for="css">CSS</label><br>
+              <input type="checkbox" id="js" name="topics" value="JavaScript">
+              <label for="js">JavaScript</label>
+            </fieldset>
+  
+            <p>
+              <label for="role">I am a:</label><br>
+              <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="developer">Developer</option>
+                <option value="hobbyist">Hobbyist</option>
+                <option value="other">Other</option>
+              </select>
+            </p>
+  
+            <p>
+              <input type="submit" value="Submit">
+              <input type="reset" value="Reset">
+            </p>
+          </fieldset>
+        </form>
+      </section>
+  
+      <section>
+        <h2>Developer Resources</h2>
+        <table class="coding-resources-table">
+          <caption>A table of coding resources categorized by programming language</caption>
+          <thead>
+            <tr>
+              <th scope="col">Language</th>
+              <th scope="col">Resource Name</th>
+              <th scope="col">Resource Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">HTML</td>
+              <td>MDN HTML Guide</td>
+              <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN HTML</a></td>
+            </tr>
+            <tr>
+              <td scope="row">CSS</td>
+              <td>CSS-Tricks</td>
+              <td><a href="https://css-tricks.com/" target="_blank">css-tricks.com</a></td>
+            </tr>
+            <tr>
+              <td scope="row">JavaScript</td>
+              <td>JavaScript.info</td>
+              <td><a href="https://javascript.info/" target="_blank">javascript.info</a></td>
+            </tr>
+            <tr>
+              <td scope="row">Python</td>
+              <td>W3Schools Python</td>
+              <td><a href="https://www.w3schools.com/python/" target="_blank">W3Schools</a></td>
+            </tr>
+            <tr>
+              <td scope="row">SQL</td>
+              <td>SQLBolt</td>
+              <td><a href="https://sqlbolt.com/" target="_blank">sqlbolt.com</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
     </main>
     <footer>
         <div class="col">
