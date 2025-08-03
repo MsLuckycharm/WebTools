@@ -402,8 +402,7 @@ footer .center {
 /* Product Grid */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, auto);
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 2rem;
   padding: 2rem;
   grid-column: 2 / 3;
@@ -419,7 +418,8 @@ footer .center {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .product-card img {
