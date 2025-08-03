@@ -407,6 +407,16 @@ footer .center {
   padding: 2rem;
   grid-column: 2 / 3;
 }
+.product-grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-rows: 1fr; /* makes all rows equal height */
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 
 /* Product Card Style */
 .product-card {
@@ -419,17 +429,18 @@ footer .center {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  min-height: 380px; /* fixed height for uniform cards */
   box-sizing: border-box;
 }
 
 .product-card img {
-  width: 200px;
-  max-width: 100%;
-  height: auto;
+  width: 100%;      /* fill width */
+  height: 150px;    /* fixed height */
+  object-fit: cover; /* crop images nicely */
   border-radius: 4px;
-  margin: 0 auto 1rem;
-  display: block;
+  margin-bottom: 1rem;
 }
+
 
 .product-card h3 {
   color: #0a6b96;
