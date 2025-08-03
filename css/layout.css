@@ -51,14 +51,14 @@ aside a {
   margin-bottom: 10px;
 }
 article {
+  max-width: none;
   flex: 1;
   padding: 40px;
-  max-width: 800px;
   text-align: left;
 }
 main article {
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: none;
+  margin: 0;
 }
 
 .toc {
