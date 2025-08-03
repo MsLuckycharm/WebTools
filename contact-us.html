@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="author" content="Ashley Persley">
-  <meta name="description" content="Contact page with form and coding-resources table — AI-assisted.">
+  <meta name="author" content="Ashley Persley">
+  <meta name="description" content="Contact form with coding topic table—AI-assisted content.">
+  <meta name="ai-usage" content="AI-assisted">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | CharmCentral</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/layout.css">
 </head>
+
 <body>
   <nav class="topnav">
     <a href="index.html">Home</a>
@@ -18,97 +20,117 @@
     <a href="contact-us.html" class="active">Contact</a>
   </nav>
 
-  <header><h1>Contact Us</h1></header>
+  <header>
+    <h1>Contact Us</h1>
+  </header>
 
   <main>
     <section>
       <h2>Submit a Request</h2>
+
       <form name="contact" method="get" action="success.html">
         <fieldset>
-          <legend>Contact Form</legend>
-
+          <legend>Contact Information</legend>
           <p>
             <label for="name">Full Name:</label><br>
             <input type="text" id="name" name="name" required autocomplete="name">
           </p>
-
           <p>
             <label for="email">Email Address:</label><br>
             <input type="email" id="email" name="email" required autocomplete="email">
           </p>
-
           <p>
             <label for="role">I am a:</label><br>
             <select id="role" name="role" required>
-              <option value="">Please select...</option>
+              <option value="">Choose one…</option>
               <option value="student">Student</option>
               <option value="developer">Developer</option>
               <option value="hobbyist">Hobbyist</option>
               <option value="other">Other</option>
             </select>
           </p>
+        </fieldset>
 
-          <p>
-            <label>Preferred Contact Method:</label><br>
+        <fieldset>
+          <legend>Preferred Contact Method</legend>
+          <div>
             <input type="radio" id="contact-email" name="contact-method" value="email" checked>
             <label for="contact-email">Email</label>
+          </div>
+          <div>
             <input type="radio" id="contact-phone" name="contact-method" value="phone">
             <label for="contact-phone">Phone</label>
-          </p>
-
-          <p>
-            <label for="message">Your Message:</label><br>
-            <textarea id="message" name="message" rows="4" required></textarea>
-          </p>
-
-          <!-- Developer Resources & Topics Table -->
-          <section>
-            <h2>Developer Resources & Topics</h2>
-            <table summary="Languages with resources and interest checkbox" class="coding-resources-table">
-              <caption>Check the languages you’re interested in</caption>
-              <thead>
-                <tr>
-                  <th scope="col">Language</th>
-                  <th scope="col">Resource</th>
-                  <th scope="col">Interested?</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td scope="row">HTML</td>
-                  <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN HTML Guide</a></td>
-                  <td><input type="checkbox" id="chk-html" name="topics" value="HTML"><label for="chk-html">Yes</label></td>
-                </tr>
-                <tr>
-                  <td scope="row">CSS</td>
-                  <td><a href="https://css-tricks.com/" target="_blank">CSS‑Tricks</a></td>
-                  <td><input type="checkbox" id="chk-css" name="topics" value="CSS"><label for="chk-css">Yes</label></td>
-                </tr>
-                <tr>
-                  <td scope="row">JavaScript</td>
-                  <td><a href="https://javascript.info/" target="_blank">JavaScript.info</a></td>
-                  <td><input type="checkbox" id="chk-js" name="topics" value="JavaScript"><label for="chk-js">Yes</label></td>
-                </tr>
-                <tr>
-                  <td scope="row">Python</td>
-                  <td><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></td>
-                  <td><input type="checkbox" id="chk-python" name="topics" value="Python"><label for="chk-python">Yes</label></td>
-                </tr>
-                <tr>
-                  <td scope="row">SQL</td>
-                  <td><a href="https://sqlbolt.com/" target="_blank">SQLBolt</a></td>
-                  <td><input type="checkbox" id="chk-sql" name="topics" value="SQL"><label for="chk-sql">Yes</label></td>
-                </tr>
-              </tbody>
-            </table>
-          </section>
-
-          <p>
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
-          </p>
-
+          </div>
         </fieldset>
+
+        <fieldset>
+          <legend>Developer Resources & Topics (Check those you're interested in)</legend>
+          <table class="coding-resources-table">
+            <caption>Select the languages/resources you're interested in</caption>
+            <thead>
+              <tr>
+                <th scope="col">Language</th>
+                <th scope="col">Resource</th>
+                <th scope="col">Interested?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">HTML</td>
+                <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN HTML Guide</a></td>
+                <td>
+                  <input type="checkbox" id="topic-html" name="topics" value="HTML">
+                  <label for="topic-html">Yes</label>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">CSS</td>
+                <td><a href="https://css-tricks.com/" target="_blank">CSS‑Tricks</a></td>
+                <td>
+                  <input type="checkbox" id="topic-css" name="topics" value="CSS">
+                  <label for="topic-css">Yes</label>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">JavaScript</td>
+                <td><a href="https://javascript.info/" target="_blank">JavaScript.info</a></td>
+                <td>
+                  <input type="checkbox" id="topic-js" name="topics" value="JavaScript">
+                  <label for="topic-js">Yes</label>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">Python</td>
+                <td><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></td>
+                <td>
+                  <input type="checkbox" id="topic-python" name="topics" value="Python">
+                  <label for="topic-python">Yes</label>
+                </td>
+              </tr>
+              <tr>
+                <td scope="row">SQL</td>
+                <td><a href="https://sqlbolt.com/" target="_blank">SQLBolt</a></td>
+                <td>
+                  <input type="checkbox" id="topic-sql" name="topics" value="SQL">
+                  <label for="topic-sql">Yes</label>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+
+        <fieldset>
+          <legend>Your Message</legend>
+          <p>
+            <label for="message">Please tell us your request or feedback:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </p>
+        </fieldset>
+
+        <p style="text-align: center;">
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </p>
       </form>
     </section>
   </main>
@@ -118,10 +140,10 @@
       <h4>External Links</h4>
       <a href="https://www.dallascollege.edu">Dallas College</a>
       <a href="https://chat.openai.com">ChatGPT</a>
-      <a href="https://www.microsoft.com/ai">Microsoft AI</a>
+      <a href="https://www.microsoft.com/ai">Microsoft AI</a>
     </div>
     <div class="col center">
-      &copy; 2025 WebTools | Email: <a href="mailto:apersley@student.dallascollege.com">Webmaster</a>
+      &copy; 2025 WebTools | Email: <a href="mailto:apersley@student.dallascollege.com">Webmaster</a>
     </div>
     <div class="col">
       <h4>Site Navigation</h4>
