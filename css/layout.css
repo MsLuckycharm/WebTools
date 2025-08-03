@@ -56,7 +56,10 @@ article {
   padding: 40px;
   max-width: 800px;
 }
-
+main article {
+  max-width: 800px;
+  margin: 0 auto;
+}
 
 .toc {
   margin-top: 0;

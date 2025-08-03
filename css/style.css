@@ -132,7 +132,7 @@ figure img {
 	float: none;
 }
 figure img.thumbnail {
-	width: 350px;        /* fixed width or adjust as needed */
+	width: 200px;        /* fixed width or adjust as needed */
 	max-width: 100%;     /* responsive limit */
 	height: auto;
 	float: none;         /* remove float so it doesn’t push content */
