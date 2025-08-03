@@ -302,7 +302,6 @@ input [type=submit] {
 }
 input [type=reset] {
     background-color: whitesmoke;
-    color: whitesmoke;
     font-size: large;
 }
 input {

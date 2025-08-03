@@ -227,7 +227,6 @@ nav.topnav {
   overflow: hidden;
   border: 0;
   white-space: nowrap;
-  clip: rect(0,0,0,0);
 }
 /* NAV */
 nav {
@@ -251,7 +250,6 @@ nav a {
 .team-intro {
   max-width: 700px;
   margin: 0 auto;
-  text-align: auto;
   padding: 1rem 2rem;
   line-height: 1.5;
 }
@@ -285,12 +283,12 @@ nav a {
   margin-bottom: 1rem;
 }
 .team-cards .card h2 {
-  margin-top: 1rem 0;
+  margin-top: 1rem;
 }
 .team-cards .card h3 {
   color: #777;
   font-size: 1rem;
-  margin-top: 0.5rem 0;
+  margin-top: 0.5rem;
 }
 .client-descrip {
   margin-top: 1rem;
