@@ -408,10 +408,12 @@ footer .center {
 }
 
 .product-card img {
+  width: 200px;
   max-width: 100%;
   height: auto;
   border-radius: 4px;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
+  display: block;
 }
 
 .product-card h3 {
