@@ -485,6 +485,13 @@ footer .center {
 .contact-form-container textarea {
   width: 100%;
 }
-
+.avatar {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+.w3-card-section {
+  margin-bottom: 32px;
+}
 
 
