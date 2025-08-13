@@ -133,7 +133,7 @@ header {
   transition: background-color 0.3s;
 }
 
-.top-header nav.topnav a:hover {
+.nav.topnav a:hover {
   background-color: #0077cc;
   color: white;
 }
