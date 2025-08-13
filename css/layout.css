@@ -493,16 +493,7 @@ footer .center {
 .w3-card-section {
   margin-bottom: 32px;
 }
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
-}
 
-.container .square {
-  aspect-ratio: 1 / 1;
-  background: lightblue; /* for visibility */
-}
 /* Container that holds your product cards */
 .products-container {
   display: grid;
