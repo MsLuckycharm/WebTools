@@ -430,6 +430,8 @@ footer .center {
   justify-content: space-between;
   min-height: 380px; /* fixed height for uniform cards */
   box-sizing: border-box;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
 }
 
 .product-card img {
