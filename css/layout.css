@@ -503,5 +503,26 @@ footer .center {
   aspect-ratio: 1 / 1;
   background: lightblue; /* for visibility */
 }
+/* Container that holds your product cards */
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px; /* Adjust spacing as needed */
+}
+
+/* Individual product card */
+.product-card {
+  aspect-ratio: 1 / 1; /* Keeps height equal to width */
+  background: #f7f7f7; /* For visibility during testing */
+  overflow: hidden;
+}
+
+/* Optional: center and fit inner content */
+.product-card .inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
 
 
