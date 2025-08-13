@@ -501,12 +501,4 @@ footer .center {
   gap: 16px; /* Adjust spacing as needed */
 }
 
-/* Optional: center and fit inner content */
-.product-card .inner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
 
