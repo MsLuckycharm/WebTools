@@ -510,13 +510,6 @@ footer .center {
   gap: 16px; /* Adjust spacing as needed */
 }
 
-/* Individual product card */
-.product-card {
-  aspect-ratio: 1 / 1; /* Keeps height equal to width */
-  background: #f7f7f7; /* For visibility during testing */
-  overflow: hidden;
-}
-
 /* Optional: center and fit inner content */
 .product-card .inner {
   display: flex;
